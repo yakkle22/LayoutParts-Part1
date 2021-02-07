@@ -1,2 +1,23 @@
 @charset "UTF-8";
 /* 回答はここから */
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+  outline: 10px solid #655;
+  box-shadow: 0 0 0 6px #655;
+  border-radius: 13px;
+  background: #d2b48c;
+  padding: 10px;
+  width: 200px;
+  float: left;
+  margin-right: 60px;
+}
+
+li:last-child {
+  margin-right: 0px;
+}

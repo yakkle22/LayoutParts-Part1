@@ -1,1 +1,50 @@
 @charset "UTF-8";
+
+.cell--table {
+  table-layout: fixed;
+  width: 100%;
+  border: 1px solid #000000;
+  font-size: 18px;
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+
+tr {
+  border: 1px solid #000000;
+  text-align: center;
+  line-height: 22px;
+}
+
+tr:first-child {
+  background: #319c4e;
+}
+
+tr:last-child {
+  border-top: 1px double rgb(255,255,255);
+}
+
+tr:nth-child(2),
+tr:nth-child(4),
+tr:nth-child(6) {
+  background: #d5ffc7;
+  line-height: 26px;
+}
+
+tr:nth-child(3),
+tr:nth-child(5) {
+  background: #bababa;
+}
+
+th {
+  padding: 10px;
+  border: 1px solid #000000;
+}
+
+td{
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+td:first-child {
+  background: #319c4e;
+}

@@ -1,2 +1,80 @@
 @charset "UTF-8";
 /* 回答はここから */
+
+.white {
+  background: #fff;
+  width: 200px;
+}
+
+.q1--horizontality p{
+  font-size: 16px;
+  background: #a4b3e9;
+}
+
+.first {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.text-align {
+  text-align: center;
+  padding: 10px;
+  margin: 20 auto;
+  display: inline-block;
+}
+
+.margin {
+  width: 90px;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.q1--perimeter p {
+  font-size: 16px;
+  background: #fff;
+  padding: 10px;
+}
+
+.table {
+  display: table;
+  height: 150px;
+  width: 250px;
+}
+
+.tableCell {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.tableText {
+  display: inline-block;
+  padding: 10px;
+}
+
+.flexOuter {
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex {
+  margin: 0;
+}
+
+.container {
+  position: relative;
+}
+
+.position {
+  position: absolute;
+  background: #a4b3e9;
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
