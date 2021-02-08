@@ -15,24 +15,27 @@ tr {
   line-height: 22px;
 }
 
-tr:first-child {
+thead tr th {
   background: #319c4e;
+  line-height: 26px;
 }
 
-tr:last-child {
+/* tr:first-child {
+  background: #319c4e;
+} */
+
+tbody tr:last-child {
   border-top: 1px double rgb(255,255,255);
 }
 
-tr:nth-child(2),
-tr:nth-child(4),
-tr:nth-child(6) {
+tbody tr:nth-child(odd) {
   background: #d5ffc7;
   line-height: 26px;
 }
 
-tr:nth-child(3),
-tr:nth-child(5) {
+tr:nth-child(even) {
   background: #bababa;
+  line-height: 22px;
 }
 
 th {
@@ -40,7 +43,7 @@ th {
   border: 1px solid #000000;
 }
 
-td{
+td {
   border: 1px solid #000000;
   padding: 10px;
 }

@@ -55,14 +55,10 @@
 }
 
 .flexOuter {
-  height: 10em;
+  height: 9em;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.flex {
-  margin: 0;
 }
 
 .container {
@@ -75,6 +71,6 @@
   padding: 10px;
   top: 50%;
   left: 50%;
-  margin-right: -50%;
+  /* margin-right: -50%; */
   transform: translate(-50%, -50%)
 }

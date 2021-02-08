@@ -14,62 +14,62 @@
   flex-direction: row;
 }
 
-.flex-r {
+.flex-reverse {
   display: flex;
   flex-direction: row-reverse;
 }
 
-.flex-c {
+.flex-column {
   display: flex;
   flex-direction: column;
 }
 
-.flex-c-r {
+.flex-column-reverse {
   display: flex;
   flex-direction: column-reverse;
 }
 
-.flex-n {
+.flex-nowrap {
   display: flex;
   flex-wrap: nowrap;
 }
 
-.flex-w {
+.flex-wrap {
   display: flex;
   flex-wrap: wrap;
 }
 
-.flex-w-r {
+.flex-wrap-reverse {
   display: flex;
   flex-wrap: wrap-reverse;
 }
 
-.justify-s {
+.justify-start {
   display: flex;
   justify-content: flex-start;
 }
 
-.justify-e {
+.justify-end {
   display: flex;
   justify-content: flex-end;
 }
 
-.justify-c {
+.justify-center {
   display: flex;
   justify-content: center;
 }
 
-.justify-s-b {
+.justify-space-between {
   display: flex;
   justify-content: space-between;
 }
 
-.justify-s-a {
+.justify-space-around {
   display: flex;
   justify-content: space-around;
 }
 
-.itemG {
+.item-grid {
   color: #fff;
   background: #00bbdd;
   padding: 10px;
@@ -83,7 +83,7 @@
   margin-bottom: 20px;
 }
 
-.grid-a {
+.grid-auto {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-row-gap: 10px;
@@ -91,22 +91,13 @@
   margin-bottom: 20px;
 }
 
-.grid-a-h {
+.grid-auto-height {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: 200px 200px;
   grid-row-gap: 10px;
   grid-column-gap: 10px;
   margin-bottom: 20px;
-}
-
-.itemC {
-  color: #fff;
-  background: #00bbdd;
-  /* width: 100px;
-  height:  100px; */
-  padding: 10px;
-  box-sizing: border-box;
 }
 
 .red {
@@ -124,7 +115,7 @@
   grid-column: span 2;
 }
 
-.grid-c {
+.grid-change {
   display: grid;
   grid-template-columns: 100px 100px 100px;
   grid-template-rows: 100px 100px 100px;
