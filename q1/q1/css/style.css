@@ -20,7 +20,7 @@
 .text-align {
   text-align: center;
   padding: 10px;
-  margin: 20 auto;
+  margin: 0px auto;
   display: inline-block;
 }
 
